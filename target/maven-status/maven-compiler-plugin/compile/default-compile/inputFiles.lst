@@ -1,0 +1,12 @@
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Controller/UserController.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Entity/UserEntity.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Entity/exceptions/IllegalOrphanException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Entity/exceptions/NonexistentEntityException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Entity/exceptions/PreexistingEntityException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Persistence/UserEntityJpaController.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Persistence/exceptions/IllegalOrphanException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Persistence/exceptions/NonexistentEntityException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Persistence/exceptions/PreexistingEntityException.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/Services/UserService.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/com/mycompany/projectclass/JakartaRestConfiguration.java
+/Users/brandonescudero/NetBeansProjects/ProjectClass/src/main/java/com/mycompany/projectclass/resources/JakartaEE8Resource.java
