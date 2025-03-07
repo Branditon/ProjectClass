@@ -26,6 +26,19 @@ public class UserEntity implements Serializable
     private String lastName;
     private String phone;
     
+    public UserEntity ()
+    {
+    
+    }
+    
+    public UserEntity (Long id, String numDoc, String name, String lastName, String phone)
+    {
+        this.id = id;
+        this.numDoc = numDoc;
+        this.name = name;
+        this.lastName = lastName;
+        this.phone = phone;
+    }
 
     public Long getId() {
         return id;

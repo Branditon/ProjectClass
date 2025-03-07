@@ -15,13 +15,56 @@ import java.util.List;
 public class UserController {
     UserEntityJpaController UserEntityJpaController = new UserEntityJpaController();
     
-    public void create (UserEntity userEntity)
+    public boolean create (UserEntity userEntity)
     {
-        UserEntityJpaController.create(userEntity);
+        try
+        {
+            UserEntityJpaController.create(userEntity);
+            
+            return true;
+        }
+        catch (Exception e) 
+        {
+            e.printStackTrace();
+            
+            return false;
+        }
     }
     
     public List<UserEntity> find ()
     {
         return UserEntityJpaController.findUserEntityEntities();
+    }
+    
+    public boolean detroy (Long id)
+    {
+        try
+        {
+            UserEntityJpaController.destroy(id);
+            
+            return true;
+        }
+        catch (Exception e) 
+        {
+            e.printStackTrace();
+            
+            return false;
+        }
+    }
+    
+    public boolean edit (UserEntity userEntity)
+    {
+        try
+        {
+            UserEntityJpaController.edit(userEntity);
+            
+            return true;
+        }
+        catch (Exception e) 
+        {
+            e.printStackTrace();
+            
+            return false;
+        }
     }
 }

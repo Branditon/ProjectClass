@@ -4,7 +4,7 @@
     Author     : brandonescudero
 --%>
 
-<%@page import="Services.UserService"%>
+<%@page import="Entity.UserEntity"%>
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
         <h1>List of registered users</h1>
         
         <%
-            List<UserService> listUser;
+            List<UserEntity> listUser;
             int count;
             
             
@@ -35,13 +35,13 @@
             </tr>
             
             <%
-                for (UserService user : listUser)
+                for (UserEntity user : listUser)
                 {
             %>
             
             <tr>
                 <td><%=count%></td>
-                <td><%=user.getId()%></td>
+                <td><%=user.getNumDoc()%></td>
                 <td><%=user.getName()%></td>
                 <td><%=user.getLastName()%></td>
                 <td><%=user.getPhone()%></td>

@@ -9,31 +9,48 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css?v=<%= System.currentTimeMillis() %>">
+
         <title>Test form</title>
     </head>
-    <body>
-        <h1>Customer data</h1>
-        
-        <form action="UserService" method="POST">
-            <label for="fname">ID</label>
-            <input type="text" id="numDocument" name="numDocument">
-            
-            <label for="lname">Name</label>
-            <input type="text" id="name" name="name">
-            
-            <label for="lname">Last name</label>
-            <input type="text" id="lastName" name="lastName">
-            
-            <label for="lname">Phone</label>
-            <input type="text" id="phone" name="phone">
-            
-            <button type="submit">Send</button>
-        </form>
-        
-        
-        <h1>View user list</h1>
-        <form action="UserService" method="GET">
-            <button type="submit">View</button>
-        </form>
+    <body>      
+        <div class="container-lg">
+            <div class="table-responsive">
+                <div class="table-wrapper">
+                    <div class="table-title">
+                        <div class="row">
+                            <div class="col-sm-8"><h2>Detalle de <b>usuarios</b></h2></div>
+                            <div class="col-sm-4">
+                                <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Nuevo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table table-bordered display" id="userTable">
+                        <thead>
+                            <tr>
+                                <th>N°</th>
+                                <th>Documento</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Telefono</th>
+                                <th>Accion</th>
+                            </tr>
+                        </thead>
+                        <tbody id="userTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
