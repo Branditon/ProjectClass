@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
         <link rel="stylesheet" type="text/css" href="css/index.css?v=<%= System.currentTimeMillis() %>">
 
-        <title>Test form</title>
+        <title>Usuarios</title>
     </head>
     <body>      
         <div class="container-lg">
