@@ -1,0 +1,15 @@
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Model/Author.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Model/Book.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Model/Category.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Model/Loan.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Model/User.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/AuthorJpaController.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/BookJpaController.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/CategoryJpaController.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/LoanJpaController.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/UserJpaController.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/exceptions/IllegalOrphanException.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/exceptions/NonexistentEntityException.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/Persistence/exceptions/PreexistingEntityException.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/com/mycompany/librerystore/JakartaRestConfiguration.java
+/Users/brandonescudero/NetBeansProjects/LibreryStore/src/main/java/com/mycompany/librerystore/resources/JakartaEE8Resource.java
